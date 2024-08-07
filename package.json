@@ -1,0 +1,20 @@
+{
+  "name": "clipshow",
+  "version": "1.0.0",
+  "main": "index.js",
+  "bin": {
+    "clipshow": "./index.js"
+  },
+  "type": "module",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "keywords": [],
+  "author": "Camilo Uribe",
+  "license": "MIT",
+  "description": "Open HTML from clipboard in the browser",
+  "dependencies": {
+    "clipboardy": "^4.0.0",
+    "open": "^10.1.0"
+  }
+}
